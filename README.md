@@ -1,6 +1,6 @@
 # 2019: A Data Odyssey
-### Department of Electrical and Computer Engineering
-### COE 848: Fundamentals of Data Engineering (Winter 2019)
+#### Department of Electrical and Computer Engineering
+#### COE 848: Fundamentals of Data Engineering (Winter 2019)
 
 ## Description
 Data and database management techniques are core to the effective engineering of scalable software applications. Rich data management schemes are needed to handle the sizeable Big Data that is available for processing. This course will cover related topics such as entity-relation diagrams, relational databases, data definition and manipulation languages, structured data representations formats, engineering of large-scale data-driven applications, development of novel vocabularies and semi-structured data and also novel concepts in NoSQL database systems.
