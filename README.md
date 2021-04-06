@@ -66,30 +66,30 @@ Each student may choose any suggested project or define his or her own in consul
 *Remarks: The written reports will be assessed not only on their academic merit, but also on the communication skills of the author as exhibited through the reports. In order to achieve a passing grade in this course, the student must achieve an average of at least 50% in both theoretical and laboratory components.*
 
 ## Course Schedule/Content
-W01: Introduction
+W01: [Introduction]('./01-2019ADataOdyssey.pdf')
 
-W02: Entity-Relationship Data Model [Part One, Part Two]
+W02: Entity-Relationship Data Model \[[Part One]('./02-EntityRelationshipDataModel-PartOne.pdf'), [Part Two]('./03-EntityRelationshipDataModel-PartTwo.pdf')\]
 
-W03: Relational Data Model [Part One, Part Two]
+W03: Relational Data Model \[[Part One]('./03-RelationalDataModel-PartOne.pdf'), [Part Two]('./04-RelationalDataModel-PartTwo.pdf')\]
 
-W04: ER to Relational [Workshop]
+W04: ER to Relational [Workshop]('./05-ER2RelationalDataModel-Workshop.pdf')
 
-W05: Relational Algebra I 
+W05: [Relational Algebra I]('08-RelationalAlgebra-PartOne.pdf')
 
-W06: Relational Algebra II
+W06: [Relational Algebra II]('09A-RelationalAlgebra-PartTwo.pdf')
 
 W07: Study Week
 
-W08: Midterm
+W08: [Midterm]('./08-Midterm.pdf')
 
-W09: SQL I
+W09: [SQL I]('./09B-SQL.pdf')
 
-W10: SQL II [Part One, Part Two],  Database Connectivity
+W10: SQL II \[[Part One]('./10-AdvancedSQL-PartOne.pdf'), [Part Two]('10-AdvancedSQL-PartTwo.pdf')],  [Database Connectivity]('./10-DatabaseConnectivity.pdf')
 
-W11: Indexing 
+W11: [Indexing]('./11-Indexing.pdf')
 
-W12: Normalization
+W12: [Normalization]('./12-Normalization.pdf')
 
-W13: Other Data Model (XML)
+W13: Other Data Model ([XML]('./13-XML.pdf'))
 
 W14: NoSQL
