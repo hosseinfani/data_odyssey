@@ -18,29 +18,17 @@ Data and database management techniques are core to the effective engineering of
 
 ## Theoretical Components
 
-**1. Relational Data Models**
+**1. Relational Data Models** Entity-Relationship (E/R) Data Model, Design Principles, Keys, Indexes, Relational Database Model, Subclass Structures to Relations
 
-Entity-Relationship (E/R) Data Model, Design Principles, Keys, Indexes, Relational Database Model, Subclass Structures to Relations
+**2. Algebra of Relational Operations** Relational operations of bags, extended operators of relational algebra
 
-**2. Algebra of Relational Operations**
+**3. Data Access and Integrity Models** Relational model queries, Data model constraints, Database modifications, Views, Object-oriented access to data 
 
-Relational operations of bags, extended operators of relational algebra
+**4. Data Engineering for Application Development** Light-weight database design, efficient database indexing,
 
-**3. Data Access and Integrity Models**
+**5. Semi-Structured Data** XML data representation, query and transformation languages
 
-Relational model queries, Data model constraints, Database modifications, Views, Object-oriented access to data 
-
-**4. Data Engineering for Application Development**
-
-Light-weight database design, efficient database indexing,
-
-**5. Semi-Structured Data**
-
-XML data representation, query and transformation languages
-
-**6. NoSQL Databases**
-
-key/value pair stores, triple stores, querying documents databases, NoSQL structure and data types.
+**6. NoSQL Databases** Key/value pair stores, triple stores, querying documents databases, NoSQL structure and data types.
 
 ## Laboratory Components
 **1. Project Specification:** Project Scope Definition and Project Specification Document Development
