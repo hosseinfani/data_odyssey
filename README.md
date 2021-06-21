@@ -1,5 +1,5 @@
 # 2019: A Data Odyssey
-#### Department of Electrical and Computer Engineering
+#### Department of Electrical and Computer Engineering, Ryerson University, Toronto, Canada
 #### COE 848: Fundamentals of Data Engineering (Winter 2019)
 
 ## Description
