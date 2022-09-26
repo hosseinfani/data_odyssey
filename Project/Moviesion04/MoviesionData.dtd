@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT MoviesionData (Movie | Director)+>
+<!ELEMENT Movie (Title, Genre*, RunningTime?, ReleaseDate?)>
+<!ATTLIST Movie Id ID #REQUIRED>
+<!ATTLIST Movie DirectorId IDREFS #IMPLIED>
+<!ELEMENT Director (FirstName, LastName, DateOfBirth, PlaceOfBirth)>
+<!ATTLIST Director Id ID #REQUIRED>
+<!ELEMENT Title (#PCDATA)>
+<!ELEMENT Genre (#PCDATA)>
+<!ELEMENT RunningTime (#PCDATA)>
+<!ELEMENT ReleaseDate (#PCDATA)>
+<!ELEMENT FirstName (#PCDATA)>
+<!ELEMENT LastName (#PCDATA)>
+<!ELEMENT DateOfBirth (#PCDATA)>
+<!ELEMENT PlaceOfBirth (#PCDATA)>

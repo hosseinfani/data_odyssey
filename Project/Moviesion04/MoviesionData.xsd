@@ -1,0 +1,46 @@
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="MoviesionData">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="Movie"/>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="Director"/>
+			</xs:sequence>
+		</xs:complexType>
+		<xs:key name="PK_Movie_Id">
+			<xs:selector xpath="Movie"/>
+			<xs:field xpath="@Id"/>
+		</xs:key>
+		<xs:key name="PK_Director_Id">
+			<xs:selector xpath="Director"/>
+			<xs:field xpath="@Id"/>
+		</xs:key>
+		<xs:keyref name="FK_Movie_DirectorId_2_Director_Id" refer="PK_Director_Id">
+			<xs:selector xpath="Movie"/>
+			<xs:field xpath="@DirectorId"/>
+		</xs:keyref>
+	</xs:element>
+	<xs:element name="Movie">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element type="xs:string" name="Title"/>
+				<xs:element type="xs:string" name="Genre"/>
+				<xs:element type="xs:decimal" name="RunningTime"/>
+				<xs:element type="xs:date" name="ReleaseDate"/>
+			</xs:sequence>
+			<xs:attribute name="Id" type="xs:integer" use="required"/>
+			<xs:attribute name="DirectorId" type="xs:integer" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Director">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element type="xs:string" name="FirstName"/>
+				<xs:element type="xs:string" name="LastName"/>
+				<xs:element type="xs:date" name="DateOfBirth"/>
+				<xs:element type="xs:string" name="PlaceOfBirth"/>
+			</xs:sequence>
+			<xs:attribute name="Id" type="xs:integer" use="required"/>
+		</xs:complexType>		
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MoviesionData[
+<!ELEMENT MoviesionData (Movie | Director)+>
+<!ELEMENT Movie (Title, Genre*, RunningTime?, ReleaseDate?)>
+<!ATTLIST Movie Id ID #REQUIRED>
+<!ATTLIST Movie DirectorId IDREFS #IMPLIED>
+<!ELEMENT Director (FirstName, LastName, DateOfBirth, PlaceOfBirth)>
+<!ATTLIST Director Id ID #REQUIRED>
+<!ELEMENT Title (#PCDATA)>
+<!ELEMENT Genre (#PCDATA)>
+<!ELEMENT RunningTime (#PCDATA)>
+<!ELEMENT ReleaseDate (#PCDATA)>
+<!ELEMENT FirstName (#PCDATA)>
+<!ELEMENT LastName (#PCDATA)>
+<!ELEMENT DateOfBirth (#PCDATA)>
+<!ELEMENT PlaceOfBirth (#PCDATA)>
+]>
+<MoviesionData>
+    <Movie Id="M1" DirectorId="D1">
+        <Title>Inception</Title>
+        <Genre>Mystery</Genre>
+        <RunningTime>148</RunningTime>
+        <ReleaseDate>2010-07-08</ReleaseDate>
+    </Movie>
+    <Movie Id="M2" DirectorId="D2">
+        <Title>Avatar</Title>
+        <Genre>Mystery</Genre>
+        <RunningTime>161</RunningTime>
+        <ReleaseDate>2009-12-10</ReleaseDate>
+    </Movie>
+    <Director Id="D1">
+        <FirstName>Christopher</FirstName>
+		<LastName>Nolan</LastName>
+        <DateOfBirth>1970-06-30</DateOfBirth>
+        <PlaceOfBirth>England</PlaceOfBirth>
+    </Director>
+    <Director Id="D2">
+        <FirstName>James</FirstName>
+		<LastName>Cameron</LastName>
+        <DateOfBirth>1954-08-16</DateOfBirth>
+        <PlaceOfBirth>Canada</PlaceOfBirth>
+    </Director>
+</MoviesionData>
+

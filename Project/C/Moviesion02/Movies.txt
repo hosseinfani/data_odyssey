@@ -1,0 +1,5 @@
+0	Duel	Steven Spielber
+2	Rosemary's Baby	Roman Polanski
+3	Titani	James Cemron
+4	God Father III	Francis Copola
+4	God Father II	Francis Copola

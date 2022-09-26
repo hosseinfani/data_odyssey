@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MoviesionData xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation= "MoviesionData.xsd">
+    <Movie Id="1" DirectorId="1">
+        <Title>Inception</Title>
+        <Genre>Mystery</Genre>
+        <RunningTime>148</RunningTime>
+        <ReleaseDate>2010-07-08</ReleaseDate>
+    </Movie>
+    <Movie Id="2" DirectorId="2">
+        <Title>Avatar</Title>
+        <Genre>Sci-fi</Genre>
+        <RunningTime>161</RunningTime>
+        <ReleaseDate>2009-12-10</ReleaseDate>
+    </Movie>
+    <Director Id="1">
+        <FirstName>Christopher</FirstName>
+		<LastName>Nolan</LastName>
+        <DateOfBirth>1970-06-30</DateOfBirth>
+        <PlaceOfBirth>England</PlaceOfBirth>
+    </Director>
+    <Director Id="2">
+        <FirstName>James</FirstName>
+		<LastName>Cameron</LastName>
+        <DateOfBirth>1954-08-16</DateOfBirth>
+        <PlaceOfBirth>Canada</PlaceOfBirth>
+    </Director>
+</MoviesionData>
+
