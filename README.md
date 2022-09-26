@@ -1,13 +1,10 @@
-# The Unix Reloaded! 
-Materials for the Computer Science course System Programming.
+# 2022: A Data Odyssey! 
+Materials for the Computer Science course Database Management Systems.
 <p align="center">
-    <img src="./Banner.png", alt="System Programming: Course Banner">
-    <p align="right">
-        <a href="https://www.artseiller.com/en/nicolas-lavarenne-en">https://www.artseiller.com/en/nicolas-lavarenne-en</a> 
-    </p>    
+    <img src="./Banner.png", alt="Database Management Systems: Course Banner">   
 </p>
 
-This course introduces students to advanced software development techniques in system programming using the C language in the ``UNIX`` environment. Topics include introduction to modern operating systems, system calls, managing processes, the use of ``fork`` and ``exec``, signals, file processing, filters, pipes, scripting languages, introduction to concurrency (e.g. synchronization), network programming (e.g. using sockets), client-server problems.
+This course will acquaint students with the basic concepts of Database Systems. The topics covered will include 3-layered software architecture, `data modeling` at `conceptual`, `logical`, and `physical` levels, the benefits of dbms vs. files and `ACID` properties.  Further, the course covers data modeling for `relational` dbms, relational model, relational algebra, `SQL`, and `normalization` theory.
 
 <p align="left">
     <img src="./Misc/instructor.jpg", alt="System Progragramming: Instructor">
